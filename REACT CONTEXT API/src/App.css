@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #fff;
+}
+
+.count {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-bottom: 45px;
+}
+
+.app-container {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 285px;
+    height: 210px;
+    padding: 32px 20px;
+    border-radius: 12px;
+    background: white;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.12);
+    text-align: center;
+}
+
+.card-content h1 {
+    font-size: 42px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.card-name {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.card-email {
+    font-size: 13px;
+    color: #777;
+}
+
+.card-action {
+    margin-top: 18px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.count {
+    color: #000000 !important;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+
+.btn {
+    background: #087df0;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+@media(max-width: 600px) {
+    .app-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.count {
+    color: #111827 !important;
+}
+
+.card-content h1 {
+    color: #111827 !important;
+}
+
+.card-name {
+    color: #111827 !important;
+}
+
+.card-email {
+    color: #777777 !important;
+}
